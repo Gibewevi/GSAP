@@ -10,12 +10,12 @@ function App() {
     
     <div className="App w-full h-screen ">
     <Animation />
-        <nav className='p-4 flex flex-row justify-between items-center bg-gradient-to-b from-fuchsia-900 z-100 overflow-hidden'>
+        <nav  id="navFushia" className=' -translate-y-20 p-4 flex flex-row justify-between items-center opacity-0 bg-gradient-to-b from-fuchsia-900 z-100 overflow-hidden'>
             <img src="barrel.svg" id="barrel" className='w-7 -translate-y-[44px] opacity-1'/>
                 <div className='flex flex-row text-white font-light z-100 overflow-hidden'>
-                    <ul id="ul_0" className='-translate-y-[18px]'>ACCEUIL</ul>
-                    <ul id="ul_1" className='mx-5 -translate-y-[18px]'>LE VIN</ul>
-                    <ul id="ul_2" className='-translate-y-[18px]'>CONTACT</ul>
+                    <ul id="ul_0" className='-translate-y-[20px]'>ACCEUIL</ul>
+                    <ul id="ul_1" className='mx-5 -translate-y-[20px]'>LE VIN</ul>
+                    <ul id="ul_2" className='-translate-y-[20px]'>CONTACT</ul>
                 </div>
             <img src="leaf.svg" id="leaf" className='w-7 -translate-y-[44px] opacity-1'/>
         </nav>
